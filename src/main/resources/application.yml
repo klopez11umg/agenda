@@ -8,7 +8,7 @@ spring:
       
       #BACKEND
         - id: proyectoback
-          uri: http://localhost:3030
+          uri: http://localhost:8090
           predicates:
             - Path=/api/proyectoback/**
           filters:
